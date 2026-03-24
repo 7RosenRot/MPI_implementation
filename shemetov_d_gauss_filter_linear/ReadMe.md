@@ -74,7 +74,7 @@ X X X X X
 
 ### 4.2. Псевдокод последовательного алгоритма
 
-```
+```C++
 for i = 1 to height - 1:
    for j = 1 to width - 1:
       red   = 0.F;
@@ -121,7 +121,7 @@ for i = 1 to height - 1:
 
 ### 5.3. Псевдокод MPI-алгоритма
 
-```
+```C++
 rank = MPI_Comm_rank()
 size = MPI_Comm_size()
 
