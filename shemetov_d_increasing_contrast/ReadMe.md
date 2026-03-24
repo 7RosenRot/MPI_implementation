@@ -38,7 +38,7 @@ struct Pixel = {
 - Параллельная реализация использует MPI с *горизонтальным разбиением данных* 
 
 - *Пример горизонтального разбиения*
-```
+```C++
 const size_t total_size = GetInput().size();
 
 std::vector<int> count(size, static_cast<int>(total_size / size));
@@ -79,7 +79,7 @@ for (int i = 1; i < size; ++i) {
 
 **Псевдокод:**
 
-```
+```C++
 function RunImpl():
     input = GetInput()
     output = new array[input.size()]
@@ -116,7 +116,7 @@ function RunImpl():
 
 **Псевдокод:**
 
-```
+```C++
 function RunImpl():
     rank = MPI_Comm_rank()
     size = MPI_Comm_size()
