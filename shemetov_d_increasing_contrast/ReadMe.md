@@ -14,7 +14,7 @@
 
 - Необходимо реализвать структуру, в которая будет описывать каждый пиксель
 
-```
+```C++
 struct Pixel = {
     uint8_t channel_red;
     uint8_t channel_green;
